@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+import { ArchiveComponent } from './components/archive/archive.component';
 
-const routes: Routes = [{
-  path: '',
-  loadChildren: () => import('./modules/layout/layout.module').then(m => m.LayoutModule)
-},
+const routes: Routes = [
+
+  { path: '', component: HomeComponent },
+  { path: '**', pathMatch: 'full', redirectTo: '/' },
+
 ];
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,0 +1,186 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Education",
+    "Header.Item3": "Experience",
+    "Header.Item4": "Projects",
+    "Header.Item5": "Testimonials",
+    "Header.Item6": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "Amber_CV.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>1 year of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Python, FastAPI, Flask</span> and sometimes in <span class='underline'>Javascript</span> applying good practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "<p>In my <span class='underline'>1 year as a developer</span>, I seek to train every day.</p>",
+        "<ul>",
+        "<li>Skilled in Python, JavaScript and Typescript.</li>",
+        "<li>Experienced in Chat Bot development with RASA Framework and incorporating Large Language Models to enhance the functionality.</li>",
+        "<li>Designing and developing websites using FastAPI for Backend and Angular for Frontend.</li>",
+        "<li>Skilled in Data Science, Data Analysis, Machine Learning, NLP, Deep Learning and Computer Vision.</li>",
+        "<li>Experienced in HTML, CSS and jQuery.</li>",
+        "<li>Experienced with Relational Data-bases like PostgreSQL, MySQL, SQL Server Management Studio.</li>",
+        "<li>Familiar with Django for Backend and non relational Database like Mongo-DB.</li>",
+      "</ul>"
+    ],
+    "Education.Title": "Education",
+    "Education.values": [
+        {
+            "Tab": "Thapar Institute of Engg. & Technology",
+            "Title": "B.tech. Biomedical & Computational Engineering",
+            "Date": "2019 - 2023",
+            "Description": [
+                "CGPA: 9.05/10.0",
+                "Awarded Scholarship for the year 2021–22 from the college."
+            ]
+        },
+        
+        {
+            "Tab": "Bal Niketan Public School",
+            "Title": "All India Senior School Certificate Examination (XII)",
+            "Date": "2019",
+            "Description": [
+                "Performance: 85.2%"
+            ]
+        },
+        {
+            "Tab": "KB DAV Senior Secondary Public School",
+            "Title": "All India Senior School Certificate Examination (X)",
+            "Date": "2017",
+            "Description": [
+                "CGPA: 10.0/10.0"
+            ]
+        }
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Cybrain Software Solutions",
+            "Title": "Software developer",
+            "Date": "April 2023 - December 2023",
+            "Description": [
+                "Develop quality software/ websites. Predominantly using FastAPI for Backend and Angular for Frontend web Development.",
+                "Worked on multiple Machine learning processes including training models, developing chatbots, working on large language models etc.",
+                "Worked in a team of 6-7 people and taking lead of 2 Software Engineer Interns."
+            ]
+        },
+        
+        {
+            "Tab": "Spinoff Technopark Pvt. Ltd.",
+            "Title": "Data Science Intern",
+            "Date": "January 2023 - March 2023",
+            "Description": [
+                "Used python for ML implementation and MySQL for data processing/analysis. Processed and analyzed multiple PAN India Datasets.",
+                "Worked on cutting-edge technologies like ML, DL, MySQL, Power BI etc."
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "Projects that I was a part of",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "CHATBOT",
+            "Description": "Worked on developing Chatbot using RASA Framework and using various NLU/NLP Techniques for accurate model development. Integrating LLM API's (GPT,BERT) in the project to enhance the functionality. Working on both backend part for chatbot development and frontend part for Bot UI and admin panel development.",
+            "imgs": [
+                "assets/images/chatbot/chatbot.jpg",
+                "assets/images/chatbot/chatbot2.jpg"
+            ],
+            "Technologies": [
+                "Python",
+                "RASA Framework",
+                "FastAPI",
+                "Angular",
+                "LLM"
+            ]
+        },
+        {
+            "Title": "Xth RESULT DATA EXTRACTION",
+            "Description": "Developed a web interface with FastAPI for backend and Angular for frontend technology which eliminates the need of txt to excel conversion of Xth CBSE Result file. For extracting all the important key-value pairs, various advanced ReGex combinations are developed. Made API’s to interact with PostgreSQL database and called in the frontend to fetch data and show interactive listing.",
+            "imgs": [
+                "assets/images/analytics/analytics2.png",
+                "assets/images/analytics/analytics1.png"
+            ],
+            "Technologies": [
+                "FastAPI",
+                "PostgreSQL",
+                "Angular",
+                "RegEX"
+            ]
+        }
+    ],
+    "Testimonials.Title": "Testimonials",
+    "Testimonials.Label": "Featured Project",
+    "Testimonials.Values": [
+        {
+            "Title": "Avni Goswami",
+            "Designation":"Senior UX/UI Designer, MSys Technologies",
+            "Description": "Amber approaches coding as more than just a job; it is a way of life for him. His dedication to his craft shines through in his work, consistently delivering products of the highest quality while adhering to industry standards and best practices. I had the pleasure of witnessing Amber's skills firsthand when he successfully completed a project for me. His techniques and problem-solving abilities left me thoroughly impressed.",
+            "imgs": [
+                "assets/images/testimonials/Avni.jpeg"
+            ]
+        },
+        {
+            "Title": "Anuj Sharma",
+            "Designation":"Full Stack Developer, Cybrain Software Solutions",
+            "Description": "Amber is an extraordinary talent, demonstrating remarkable creativity, innovation, and a strong sense of responsibility in his work. He approaches coding with a true passion and commitment, constantly seeking to improve and make projects of the highest quality while adhering to industry standards and best practices.",
+            "imgs": [
+                "assets/images/testimonials/Anuj.jfif"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Physical Therapy Rehab Monitoring System",
+            "Description": "Developed an open CV based physiotherapy monitoring system integrated with EMG signal through raspberry pi pico using micro-python (on Thonny) for muscle recovery monitoring.",
+            "ghLink": "https://github.com/AmberGoswami/physiotherapy-monitoring-for-leg-muscle-injuries-system-",
+            "demoLink": "https://github.com/AmberGoswami/physiotherapy-monitoring-for-leg-muscle-injuries-system-",
+            "Technologies": [
+                "OpenCV",
+                "Mediapipe",
+                "Deep Learning",
+                "Machine Learning",
+                "Python"
+            ]
+        },
+        {
+            "Title": "EEG Motor-Imagery Signal Analysis and Classification",
+            "Description": "Gathered and corrected data to create EEG motor imagery prediction model and prepared a pipeline for processing and feature extraction of EEG data using MNE-python. Worked on various classification models for motor imagery task prediction.",
+            "Technologies": [
+                "MNE-Python",
+                "Mchine Learning",
+                "ICA",
+                "Deep Learning",
+                "Clssification"
+            ]
+        },
+        {
+            "Title": "User Blog Backend",
+            "Description": "Backend Project with developed APIs for users and their blogs with all the CRUD operations. Proper JWT authentication and authorization to protect the APIs.",
+            "ghLink": "https://github.com/AmberGoswami/User-Blog-Backend",
+            "demoLink": "https://github.com/AmberGoswami/User-Blog-Backend",
+            "Technologies": [
+                "FastAPI",
+                "SQLAlchemy",
+                "Alembic",
+                "API",
+                "3rd Party Library"
+            ]
+        },
+        {
+            "Title": "Multitenancy - FastAPI",
+            "Description": "Schema based muliti-tenancy, Each tenant can have different schema in the database containing tables with same entities. Every tenant get's assigned a unique SqlAlchemy Class through which data can be accessed. Tenant specific crud operatrion APIs being developed. Proper JWT authentication and API authorization with tenant specific login API.",
+            "ghLink": "https://github.com/AmberGoswami/Multitenancy-FastAPI",
+            "demoLink": "https://github.com/AmberGoswami/Multitenancy-FastAPI",
+            "Technologies": [
+                "FastAPI",
+                "PostgreSQL",
+                "Pydantic"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+}
